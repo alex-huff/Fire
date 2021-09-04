@@ -1,0 +1,10 @@
+name: Fire
+version: 1.0
+description: Plugin for remote button and lever control
+author: phonis
+main: dev.phonis.fire.Fire
+commands:
+  fire:
+    description: Presses last button controlled by player
+  lever:
+    description: Toggles last lever controlled by player
