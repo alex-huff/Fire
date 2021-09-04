@@ -1,5 +1,6 @@
 name: Fire
 version: 1.0
+loadbefore: [KCannonEssentials]
 description: Plugin for remote button and lever control
 author: phonis
 main: dev.phonis.fire.Fire
