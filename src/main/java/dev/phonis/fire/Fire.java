@@ -72,7 +72,7 @@ public class Fire extends JavaPlugin implements CommandExecutor {
 
             Block block = user.getLeverLocation().getBlock();
 
-            if (block.getType() == Material.LEVER) {
+            if (block.getType().equals(Material.LEVER)) {
                 net.minecraft.server.v1_8_R3.World nmsWorld = ((CraftWorld) block.getWorld()).getHandle();
                 BlockPosition blockPos = new BlockPosition(block.getX(), block.getY(), block.getZ());
                 BlockLever nmsBlock = (BlockLever) nmsWorld.getType(blockPos).getBlock();
